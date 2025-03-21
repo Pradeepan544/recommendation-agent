@@ -1,7 +1,7 @@
-# AI-Powered News Recommendation Agent
+# AI-Powered Recommendation Agent
 
 ## 📌 Overview
-This project is an AI-powered news recommendation agent that provides personalized news recommendations based on user profiles and external news sources. Users can submit their profiles, fetch news data from an external API, and receive recommendations tailored to their interests.
+This project is an AI-powered recommendation agent that provides personalized recommendations based on user profiles and external news sources. Users can submit their profiles, fetch news data from an external API, and receive recommendations tailored to their interests.
 
 ## 🛠️ Setup Instructions
 
