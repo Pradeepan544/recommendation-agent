@@ -19,7 +19,7 @@ except Exception as e:
     print(f"❌ MongoDB Connection Failed: {e}")
 
 # 🔹 Configure Gemini API
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBeZuTPSh8tTpIN_B4D5fC6f2VqNSXwLUc"
+os.environ["GOOGLE_API_KEY"] = "enter you gemini key here"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # 🔹 Define Models
@@ -52,7 +52,7 @@ def add_user(user: UserProfile):
     return {"message": "User added successfully!"}
 
 # ✅ Fetch News from NewsAPI
-NEWS_API_KEY = "87a954b670b54fa382d6d6e6fde9decb"
+NEWS_API_KEY = "enter your news api key"
 NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_news(category: str = "technology", page_size: int = 5):
